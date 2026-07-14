@@ -18,6 +18,11 @@
 </div>
 
 ---
+# 🎥 Project Preview
+
+<p align="center">
+  <img src="assets/protein.gif" alt="Protein-Ligand Interaction Animation" width="850">
+</p>
 
 # 📖 Overview
 
