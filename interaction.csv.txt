@@ -1,0 +1,10 @@
+Reaction_Time,Interaction_Value,Ligand
+2.5,0.40,ADP
+5.0,0.50,ADP
+7.5,0.70,ADP
+2.5,0.30,Ca2+
+5.0,0.60,Ca2+
+7.5,0.50,Ca2+
+2.5,0.50,Mg2+
+5.0,0.40,Mg2+
+7.5,0.60,Mg2+

@@ -1,0 +1,37 @@
+# generate_scene.pml
+# Automated PyMOL Rendering Script for Myosin-Ligand Interactions
+
+# 1. Fetch the Scallop Myosin protein crystal structure from PDB
+fetch 1B7T, type=pdb, async=0
+
+# 2. Select structural target elements
+select ligand_adp, resn ADP
+select calcium_ions, element Ca
+select magnesium_ions, resn MG
+
+# 3. Apply Professional Aesthetics
+bg_color white
+show cartoon, 1B7T
+color deepteal, 1B7T
+show sticks, ligand_adp
+color warmpink, ligand_adp
+show spheres, calcium_ions or magnesium_ions
+
+# 4. Initialize Camera & Matrix Views
+cmd.orient("ligand_adp", animate=-1)
+util.cba(33, "1B7T")
+
+# 5. Movie Timeline Compilation (Frame Setup)
+mset 1x1800
+mview store, 1
+
+# Frame 200: Intermediate Rotation Angle
+turn y, 180
+mview store, 200
+
+# Frame 550: Complete Smooth Rotation Loop 
+turn y, 180
+mview store, 550
+
+# 6. Playback Scene Loop
+mplay
