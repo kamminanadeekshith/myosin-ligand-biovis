@@ -3,7 +3,7 @@
 # 🧬 AI-Driven Protein–Ligand Interaction Analysis using PyMOL
 ### *Exploring Molecular Interactions as the First Step Towards AI-Powered Drug Discovery*
 
-<img src="images/banner.png" width="900">
+
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![PyMOL](https://img.shields.io/badge/PyMOL-Molecular%20Visualization-green)
@@ -21,7 +21,9 @@
 # 🎥 Project Preview
 
 <p align="center">
-  <img src="assets/protein.gif" alt="Protein-Ligand Interaction Animation" width="850">
+  <img src="./ScreenRecording2024-11-282140511-ezgif.com-video-to-gif-converter.gif"
+       alt="Protein-Ligand Interaction Demo"
+       width="900">
 </p>
 
 # 📖 Overview
